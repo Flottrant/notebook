@@ -1,0 +1,15 @@
+papersize: a4
+documentclass: scrbook
+classoption:
+  - oneside
+  - headsepline
+fontsize: 12pt
+date: \today
+# toc: true
+reference-section-title: References
+header-includes: |
+  \usepackage[automark,autooneside=false]{scrlayer-scrpage}
+  \clearpairofpagestyles
+  \ihead{\leftmark}
+  \ohead{\ifstr{\rightmark}{\leftmark}{}{\rightmark}}
+  \cfoot*{\pagemark}

@@ -1,0 +1,25 @@
+# general settings
+standalone: true
+filters:
+  - pandoc-crossref
+  - citeproc
+top-level-division: chapter   # recommended for `pandoc-crossref`
+
+# output settings
+## change to control output format, location and style
+to: pdf
+output-file: output/notebook.pdf
+metadata-file: ${.}/styles/pdf/booklet-singlepage.yml
+# csl: 
+# template:
+toc: true
+
+# content
+## controls the content of the notebook
+## filenames and -paths are relative to the directory where pandoc is executed
+metadata:
+  title: 
+  author: 
+  bibliography: []
+input-files:
+  - 

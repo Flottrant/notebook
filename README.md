@@ -32,21 +32,18 @@ YAML files with layout and typesetting metadata for specific output types.
 The styles can be chosen in ``index.yml`` using the ``metadata-file`` option and customized to suite individual needs.
 Current styles inlude:
 
-- `pdf-singlepage.yml`
+- `pdf/booklet-singlepage.yml`
   
   A PDF notebook in book format.
   Each markdown file constitutes a separate chapter, and a bibliography is inserted if `citeproc` is utilized.
   
-- `pdf-doublepage.yml`
+- `pdf/booklet-doublepage.yml`
 
   Same as `pdf-singlepage.yml` but with binding corrections for alternating pages.
   Ideal for printing and binding the notebook.
 
 ### Citation-Styles
 An assortment of different publicly available citation styles for the `citeproc` filter.
-
-### CSS-Styles
-Different CSS styles for the HTML output format.
 
 ### Templates
 Custom pandoc templates used for the respective output format when the `standalone` option is set to `true` (default).
