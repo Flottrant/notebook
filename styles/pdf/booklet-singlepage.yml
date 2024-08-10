@@ -9,6 +9,7 @@ date: \today
 reference-section-title: References
 header-includes: |
   \usepackage[automark,autooneside=false]{scrlayer-scrpage}
+  \usepackage[section, below]{placeins}
   \clearpairofpagestyles
   \ihead{\leftmark}
   \ohead{\ifstr{\rightmark}{\leftmark}{}{\rightmark}}

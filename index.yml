@@ -13,6 +13,7 @@ metadata-file: ${.}/styles/pdf/booklet-singlepage.yml
 # csl: 
 # template:
 toc: true
+toc-depth: 1
 
 # content
 ## controls the content of the notebook
